@@ -1,11 +1,13 @@
 # SetUp (hardware)
-1)
+1) 
 
 # SetUp (software)
-- Make an email account and add its credentials for the bot to use, if Gmail, enable less secure apps so that the script can use the email.
-- Make a reddit account, get client_id and client_secret
-- add both of these credentials to credentials.txt for the script to use.
-
+1) Download blynk app and make an account
+2) Add verification code to i2c_D1mini.ino
+3) Add the wifi's SSID and password to the script
+4) Customize board to match with the corresponding virtual pins.
+- ZERGBRA(recommended of RGB control) V1 -> red, 0 - 255 
+                                      V2 -> green, 0 - 255 
 
 
 ### Recommended
