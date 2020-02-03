@@ -1,6 +1,15 @@
 # SetUp (hardware)
-1) 
+![](https://ae01.alicdn.com/kf/HTB1Ks1uH3mTBuNjy1Xbq6yMrVXaY.jpg)
+1) Connect LED strip pind to the arduino accordingly
+  - 10 to red, 9 to green, 5 to blue, 11 to white (chosen to take advantage of hardware pwn pins on arduino, pwn pins may differ based on arduino model and in which case the arduino will just use software pwn and it'll be fine)
+2) Connect the d1 mini to the arduino via i2c pins.
+- For the D1 mini 
+  - SDA => D2
+  - SCL => D1
+  
+ - For the arduino, it depends on the type you have so go to https://www.arduino.cc/en/reference/wire and figure out which are the SDA and SCL pins.
 
+  
 # SetUp (software)
 1) Download blynk app and make an account
 2) Add verification code to i2c_D1mini.ino
@@ -21,7 +30,3 @@
   
 - Slider
   - V6 -> white, 0 - 255
-
-### Recommended
-- Add names of music subreddits to the MusicSubs.txt to add different genres, the format is as follows: subreddit name, # of songs
-- If on Unix system scedule HeardIt with crontab for weekly or daily emails.
