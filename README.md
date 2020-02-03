@@ -13,7 +13,7 @@
   
   - The D1 mini can be powered through the Arduino and also the LED Strip but careful about current draw. Calculate what the arduino can handle based on LED strip length and arduino model.
   - More often than not the draw will be too much and you will want to serperate the flows.
-  - If the LED strip is 12V, you will want MOSFETs to control the LED strip
+  - If the LED strip is 12V, you will want MOSFETs to control the LED strip as the arduino operates at max 5V.
 
   
 # SetUp (software)
