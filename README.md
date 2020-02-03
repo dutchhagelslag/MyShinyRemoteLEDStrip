@@ -9,6 +9,12 @@
   
  - For the arduino, it depends on the type you have so go to https://www.arduino.cc/en/reference/wire and figure out which are the SDA and SCL pins.
 
+3) Connect LED Strip, D1 mini, and arduino to a power source, some LED strips are 5V others 12V, use a voltage regulator as needed.
+  
+  - The D1 mini can be powered through the Arduino and also the LED Strip but careful about current draw. Calculate what the arduino can handle based on LED strip length and arduino model.
+  - More often than not the draw will be too much and you will want to serperate the flows.
+  - If the LED strip is 12V, you will want MOSFETs to control the LED strip
+
   
 # SetUp (software)
 1) Download blynk app and make an account
